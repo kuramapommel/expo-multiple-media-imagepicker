@@ -2911,10 +2911,13 @@ expo-keep-awake@~10.0.0:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-10.0.2.tgz#706bda839782bb3e8ad4cbe43bde471a56368813"
   integrity sha512-Ro1lgyKldbFs4mxhWM+goX9sg0S2SRR8FiJJeOvaRzf8xNhrZfWA00Zpr+/3ocCoWQ3eEL+X9UF4PXXHf0KoOg==
 
-expo-media-library@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-5.0.1.tgz#f7f3b7fa0808eac224cd966583253380f0af2d1d"
-  integrity sha512-b5DHS+Ga8dyhw1+xQDB7Dafiea1jd91iOXbaE8LWg+awUDXTh6Ss14KMh8WI2mE3DVbBkcuLPTQ9NXlM2Oz67Q==
+expo-media-library@~13.0.3:
+  version "13.0.3"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-13.0.3.tgz#1334d1bb0e81178a4c4cd8c1e018d45baada744b"
+  integrity sha512-TCSqp9s8AmygN2SuTddkpO2jVEuqqKkzi7QRiB+Duoq7ZQFL6pGujBEpklQEgp7LqBlO1WOrY+pokOu0oabXdA==
+  dependencies:
+    "@expo/config-plugins" "^4.0.2"
+    expo-modules-core "~0.4.4"
 
 expo-modules-autolinking@~0.3.3:
   version "0.3.4"
@@ -4228,10 +4231,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-safe-area-view@^0.14.6:
-  version "0.14.7"
-  resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.14.7.tgz#e1dd1c4d25a90677df2c15347fdddb2306ba5971"
-  integrity sha512-fmuBYpvKDJK33bimo4JXrK2BN2CGw7nof1y1LDRgzqv+FZ3eADSDGshprN8WeQqSZjQ20hJx1CiWk28Edg/v4Q==
+react-native-safe-area-view@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-1.1.1.tgz#9833e34c384d0513f4831afcd1e54946f13897b2"
+  integrity sha512-bbLCtF+tqECyPWlgkWbIwx4vDPb0GEufx/ZGcSS4UljMcrpwluachDXoW9DBxhbMCc6k1V0ccqHWN7ntbRdERQ==
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
