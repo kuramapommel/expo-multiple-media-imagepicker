@@ -5,7 +5,7 @@ import {
   View,
   FlatList,
   Dimensions,
-  Button,
+  TouchableOpacity,
   ActivityIndicator
 } from 'react-native'
 
