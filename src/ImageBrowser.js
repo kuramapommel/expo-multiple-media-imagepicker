@@ -103,17 +103,13 @@ export default class ImageBrowser extends React.Component {
       <SafeAreaView forceInset={{ top: 'always' }} style={{ height: 52 }}>
         <View style={styles.header}>
 
-          <Button
-            color={headerButtonColor}
-            title={headerCloseText}
-            onPress={() => this.props.callback(Promise.resolve([]))}
-          />
+          <TouchableOpacity onPress={() => this.props.callback(Promise.resolve([]))}>
+            <Text style={[styles.headerButtonText, {color: headerButtonColor}]}>{headerCloseText}</Text>
+          </TouchableOpacity>
           <Text style={styles.headerText}>{headerText}</Text>
-          <Button
-            color={headerButtonColor}
-            title={headerDoneText}
-            onPress={() => this.prepareCallback()}
-          />
+          <TouchableOpacity onPress={() => this.prepareCallback()}>
+            <Text style={[styles.headerButtonText, {color: headerButtonColor}]}>{headerDoneText}</Text>
+          </TouchableOpacity>
 
         </View>
       </SafeAreaView>
@@ -193,6 +189,10 @@ const styles = StyleSheet.create({
   },
   headerText: {
     fontWeight: 'bold',
+    fontSize: 16,
+    lineHeight: 19
+  },
+  headerButtonText: {
     fontSize: 16,
     lineHeight: 19
   },
